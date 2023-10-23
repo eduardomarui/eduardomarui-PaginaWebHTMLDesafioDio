@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="./paginaPrincipal.html">Home</a></li>
+                <li><a href="./sobreClinica.html">Sobre</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./horarioAtendimento.html">Horários</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <p>Contato</p>
+                <img  width="150" src="./depositphotos_184191798-stock-illustration-vector-logo-design-for-health.jpg" alt="Logo da clinica">
+                
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <p>Endereço: Rua João Lisboa 737 - Bairro Vila Prudente </p>
+                <p>São Paulo - SP</p>
+                <p>Contato: (11) 99598-4475</p>
+                <form name="signup" onsubmit="alert('Enviado')" target="_blank" method="POST" action="#" autocomplete="off">
+                    <label for="cadastro">Nome:</label> <input type="text" name="name" /><br>
+                    <label for="cadastro">Email:</label> <input type="email" min="0" max="99" name="age"/><br>
+                    <label for="cadastro">Assunto:</label> <input type="text" name="date" id="date"><br>
+                    <label>Escreva em 50 caracteres o motivo do seu cadastro</label> <br>
+                    <textarea name="message" id="" cols="30" rows="10">Limite de 50 caracteres</textarea> <br>
+                    <button type="submit">Enviar</button> <button type="reset">Limpar</button>
+            </div>
+    
+            <div class="footer">
+                Footer
+                <p>Endereço: Rua João Lisboa 737 - Bairro Vila Prudente </p>
+                <p>São Paulo - SP</p>
+                <p>Contato: (11) 99598-4475</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
